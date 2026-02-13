@@ -1,0 +1,20 @@
+{
+  "name": "claudeframework",
+  "version": "1.0.0",
+  "description": "Playwright automation framework for Google.com verification tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:google": "playwright test google.spec.ts",
+    "report": "playwright show-report"
+  },
+  "keywords": ["playwright", "automation", "testing", "google", "e2e"],
+  "author": "Claude Framework",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.2.1"
+  }
+}
